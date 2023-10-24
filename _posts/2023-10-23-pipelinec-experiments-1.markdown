@@ -105,8 +105,8 @@ Plot of debug wires, 256 cycles simulation.
 I guess that's it for today... On my next blog posts I will talk about the FM modulator / Demodulator and FIR Filter simulations that I made with PipelineC. Bye! See you on the next post...
 
 ---
-References
-[Direct digital synthesis - Wikipedia](https://en.wikipedia.org/wiki/Direct_digital_synthesis)/
-[Numerically controlled oscillator - Wikipedia](https://en.wikipedia.org/wiki/Numerically_controlled_oscillator)/
-[Building a Numerically Controlled Oscillator - ZipCpu](https://zipcpu.com/dsp/2017/12/09/nco.html)
+References\
+[Direct digital synthesis - Wikipedia](https://en.wikipedia.org/wiki/Direct_digital_synthesis)\
+[Numerically controlled oscillator - Wikipedia](https://en.wikipedia.org/wiki/Numerically_controlled_oscillator)\
+[Building a Numerically Controlled Oscillator - ZipCpu](https://zipcpu.com/dsp/2017/12/09/nco.html)\
 [What’s Your IQ – About Quadrature Signals - Tektronix Blog](https://www.tek.com/en/blog/quadrature-iq-signals-explained)
