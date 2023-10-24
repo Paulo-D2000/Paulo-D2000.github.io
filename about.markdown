@@ -10,9 +10,10 @@ I'm a collaborator of the open source digital radio [M17 Project](https://github
 
 I have more than 3 years experience with C++, about 3 years with Python and 2 years with GnuRadio. As my main 3D software I've used Autodesk 3DS Max for about 4 years and Sketchup for around 6 years. I'm currently "retired" for 3D work but I occasionally do some work for friends and some old clients.
 
-![alt text](me.jpg)
-Majoring in Telecommunications Engineering
-UFSJ
-Ouro Branco, Minas Gerais
-Brazil
+---
+<img src="me.jpg" width="200" height="200" />\
+Majoring in Telecommunications Engineering\
+UFSJ\
+Ouro Branco, Minas Gerais\
+Brazil\
 mcpauloh@gmail.com
