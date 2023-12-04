@@ -34,6 +34,7 @@ instagram_username: paul0.dutra
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 minima:
   skin: dark
