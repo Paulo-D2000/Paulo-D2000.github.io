@@ -31,7 +31,7 @@ linkedin_username: paulo-dutra-092458260
 instagram_username: paul0.dutra
 
 # Build settings
-theme: jekyll-theme-chirpy
+theme: minima
 plugins:
   - jekyll-feed
 
