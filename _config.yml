@@ -32,9 +32,11 @@ instagram_username: paul0.dutra
 
 # Build settings
 theme: minima
-  skin: dark
 plugins:
   - jekyll-feed
+
+minima:
+  skin: dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.
