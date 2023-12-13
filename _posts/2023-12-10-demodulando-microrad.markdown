@@ -21,7 +21,7 @@ Um experimento de Microbiologia que investiga a presença de de micro-organismos
 ![microrad_obsat](/assets/img/obsat_microrad.jpg)\
 Foto do satélite na Obsat com as medalhas recebidas!
 
-Convidamos os Radioamadores a fazer parte da missão gravando o sinal (IQ) recebido e demodulando os pacotes do nosso beacon de telemetria, assim acompanhando o status do satélite e da carga útil em tempo real! Estaremos enviando certificados para os operadores que fizerem a gravação IQ do sinal e enviarem no nosso e-mail [noizorbita@ufsj.edu.br](noizorbita@ufsj.edu.br).
+Convidamos os Radioamadores a fazer parte da missão gravando o sinal (IQ) recebido e demodulando os pacotes do nosso beacon de telemetria, assim acompanhando o status do satélite e da carga útil em tempo real! Estaremos enviando certificados para os operadores que fizerem a gravação IQ do sinal ou registro dos pacotes de telemetria e enviarem no nosso e-mail [noizorbita@ufsj.edu.br](noizorbita@ufsj.edu.br).
 
 O μRad possui um beacon de telemetria usando a modulação LoRa e transmite os dados do satélite e da carga útil (experimento de Microbiologia)  a cada 30 segundos na faixa de 70cm radioamadora (UHF), mais especificamente em 434MHz, a estrutura do pacote no formato de texto é a seguinte:
 
