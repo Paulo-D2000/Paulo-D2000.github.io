@@ -39,9 +39,12 @@ Payload -> Estado da carga útil [OPEN = Camara Aberta, CLOSE = Fechada] \
 Mode ----> Modo de operação [INIT, NOMINAL, SAFE, PAYLOAD, SHUTDOWN] \
 Counter -> Contador de pacotes enviados
 
-Convidamos os Radioamadores a fazer parte da missão demodulando os pacotes do nosso beacon de telemetria, assim acompanhando o status do satélite e da carga útil em tempo real!
+Convidamos os Radioamadores a fazer parte da missão gravando o sinal (IQ) recebido e demodulando os pacotes do nosso beacon de telemetria, assim acompanhando o status do satélite e da carga útil em tempo real! Estaremos enviando certificados para os operadores que fizerem a gravação IQ do sinal e enviarem no nosso e-mail [noizorbita@ufsj.edu.br](noizorbita@ufsj.edu.br).
 
-Para demodular o beacon de telemetria sugerimos usar o programa [GnuRadio](https://www.gnuradio.org) e os blocos da biblioteca [Gr-Lora-SDR](https://www.gnuradio.org) vamos disponibilizar alguns tutoriais de instalação para os sitemas operacionais: [Windows 64bits](assets/guides/grc/win64_install), [Linux 64bits](assets/guides/grc/linux_install) e [Mac](assets/guides/grc/mac_install), basta clicar no nome do sistema e seguir os passos para instalar e configurar o programa. Também é necessário um SDR, o popular RTL-SDR pode ser usado, inclusive é a configuração padrão do flowgraph.\
+Para demodular o beacon de telemetria sugerimos usar o programa [GnuRadio](https://www.gnuradio.org) e os blocos da biblioteca [Gr-Lora-SDR](https://www.gnuradio.org) vamos disponibilizar alguns tutoriais de instalação para os sitemas operacionais: [Windows 64bits](guides/grc/win64_install), [Linux 64bits](guides/grc/linux_install) e [MacOs](guides/grc/mac_install), basta clicar no nome do sistema e seguir os passos para instalar e configurar o programa, um guia geral (em ingles) pode ser encontrado no link [GnuRadio CondaInstall](https://wiki.gnuradio.org/index.php/CondaInstall).
+
+Também é necessário um SDR, o popular RTL-SDR deve ser usado, pois esta é a configuração padrão do flowgraph.
+
 Depois de instalado o programa baixe o flowgraph seguinte: [demod_lora.grc](/assets/code/grc/demod_lora.grc) em seguida execute o GnuRadio digitando ```gnuradio-companion``` no terminal onde foi instalado o conda ou usando o atalho no Windows.\
 ![win64_icon](/assets/img/grc_icon_win64.png)\
 Atalho do GnuRadio no Windows.
@@ -64,4 +67,4 @@ Terminal do windows.
 ![cmd_side_watfll](/assets/img/grc_side_console.jpg)\
 Vista lado á lado do terminal e do espectrograma mostrando pacotes demodulados.
 
-Em caso de dúvidas ou problemas, por favor entre em contato pelas nossas redes sociais: [Instagram Noizorbita](https://www.instagram.com/noizorbita/?hl=en), links aqui no site ou direto via meu telegram: [Paulo Dutra PU4THZ](https://web.telegram.org/k/#@Dutracgi). Obrigado!
+Em caso de dúvidas ou problemas, por favor entre em contato pelas nossas redes sociais: [Instagram Noizorbita](https://www.instagram.com/noizorbita/?hl=en), links aqui no site, direto via meu telegram: [Paulo Dutra PU4THZ](https://web.telegram.org/k/#@Dutracgi) ou pelo [Telegram Joao Polito PU4JPP](https://web.telegram.org/k/#@jp_polito). Obrigado!
