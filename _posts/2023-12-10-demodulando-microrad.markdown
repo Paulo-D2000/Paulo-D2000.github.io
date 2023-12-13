@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Demodulando o satélite MicroRad (μRad)!"
-date:   2023-12-13 15:52:00 -0300
+date:   2023-12-13 16:40:00 -0300
 author: Paulo Dutra
 categories:
   - pt-BR
@@ -21,6 +21,8 @@ Um experimento de Microbiologia que investiga a presença de de micro-organismos
 ![microrad_obsat](/assets/img/obsat_microrad.jpg)\
 Foto do satélite na Obsat com as medalhas recebidas!
 
+Convidamos os Radioamadores a fazer parte da missão gravando o sinal (IQ) recebido e demodulando os pacotes do nosso beacon de telemetria, assim acompanhando o status do satélite e da carga útil em tempo real! Estaremos enviando certificados para os operadores que fizerem a gravação IQ do sinal e enviarem no nosso e-mail [noizorbita@ufsj.edu.br](noizorbita@ufsj.edu.br).
+
 O μRad possui um beacon de telemetria usando a modulação LoRa e transmite os dados do satélite e da carga útil (experimento de Microbiologia)  a cada 30 segundos na faixa de 70cm radioamadora (UHF), mais especificamente em 434MHz, a estrutura do pacote no formato de texto é a seguinte:
 
 | Temp | Alt | Pres | Acc_x | Acc_y | Acc_z | Gyro_x | Gyro_y | Gyro_z | Bat % | Payload | Mode | Counter |
@@ -39,7 +41,6 @@ Payload -> Estado da carga útil [OPEN = Camara Aberta, CLOSE = Fechada] \
 Mode ----> Modo de operação [INIT, NOMINAL, SAFE, PAYLOAD, SHUTDOWN] \
 Counter -> Contador de pacotes enviados
 
-Convidamos os Radioamadores a fazer parte da missão gravando o sinal (IQ) recebido e demodulando os pacotes do nosso beacon de telemetria, assim acompanhando o status do satélite e da carga útil em tempo real! Estaremos enviando certificados para os operadores que fizerem a gravação IQ do sinal e enviarem no nosso e-mail [noizorbita@ufsj.edu.br](noizorbita@ufsj.edu.br).
 
 Para demodular o beacon de telemetria sugerimos usar o programa [GnuRadio](https://www.gnuradio.org) e os blocos da biblioteca [Gr-Lora-SDR](https://www.gnuradio.org) vamos disponibilizar alguns tutoriais de instalação para os sitemas operacionais: [Windows 64bits](guides/grc/win64_install), [Linux 64bits](guides/grc/linux_install) e [MacOs](guides/grc/mac_install), basta clicar no nome do sistema e seguir os passos para instalar e configurar o programa, um guia geral (em ingles) pode ser encontrado no link [GnuRadio CondaInstall](https://wiki.gnuradio.org/index.php/CondaInstall).
 
