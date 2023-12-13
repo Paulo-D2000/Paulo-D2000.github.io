@@ -10,7 +10,7 @@ Criado por: Paulo Dutra
 ### Passo 1:
 
 Baixe e instale a versão do Radioconda para seu sistema operacional mais detalhes no [Github do Miniconda](https://docs.conda.io/projects/miniconda/en/latest/index.html):\
-[Link de Download](https://glare-sable.vercel.app/ryanvolz/radioconda/radioconda-.*-Windows-x86_64.exe)
+Link de Download [Radioconda-windows-x86_64.exe](https://glare-sable.vercel.app/ryanvolz/radioconda/radioconda-.*-Windows-x86_64.exe)
 
 ### Passo 2:
 

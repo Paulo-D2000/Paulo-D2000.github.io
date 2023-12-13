@@ -9,7 +9,7 @@ Criado por: Paulo Dutra
 
 ### Passo 1:
 
-Baixe e isntale a versão do Miniconda para seu sistema operacional mais detalhes no [Site do Miniconda](https://docs.conda.io/projects/miniconda/en/latest/index.html):
+Baixe e instale a versão do Miniconda para seu sistema operacional mais detalhes no [Site do Miniconda](https://docs.conda.io/projects/miniconda/en/latest/index.html):
 ```
 mkdir -p ~/miniconda3
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
