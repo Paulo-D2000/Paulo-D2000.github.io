@@ -11,7 +11,7 @@ tags:
   - iq
   - sdr
 ---
-A nossa equipe de competição de pequenos satélites, [NoizOrbita](https://www.instagram.com/noizorbita/?hl=en), parte do Labóratório Integrado de Sitemas Espaciais (LISE) situado no Campus Alto Paraopeba da Universidade Federal de São João Del Rei [(UFSJ-CAP)](https://www.ufsj.edu.br/cap/) participou da 2 edição da Olimpiada Brasileira de Satélites [(OBSAT)](https://www.obsat.org.br) e foi premiada em 1 lugar no nível 3 da fase 3 da competição prática! Ganhamos um lançamento do nosso satélite (MicroRad) num balão extratosférico que ocorrerá no dia 16 de Dezembro na Universidade Federal de São Carlos (UFSCAR) as 10:00 da manhã!
+A nossa equipe de competição de pequenos satélites, [NoizOrbita](https://www.instagram.com/noizorbita/?hl=en), parte do Labóratório Integrado de Sitemas Espaciais (LISE) situado no Campus Alto Paraopeba da Universidade Federal de São João Del Rei [(UFSJ-CAP)](https://www.ufsj.edu.br/cap/) participou da 2 edição da Olimpiada Brasileira de Satélites [(OBSAT)](https://www.obsat.org.br) e foi premiada em 1 lugar no nível 3 da fase 3 da competição prática! Ganhamos um lançamento do nosso satélite (MicroRad) num balão extratosférico que ocorrerá no dia 16 de Dezembro na Universidade Federal de São Carlos (UFSCAR) a janela de lançamento é das 08:00 as 10:00 da manhã!
 ![microrad_patch](/assets/img/patch_urad_hd.png)\
 Patch da missão MicroRad (μRad)!
 
