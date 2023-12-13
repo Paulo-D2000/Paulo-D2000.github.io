@@ -1,6 +1,8 @@
+---
 layout: page
 title: "Instalacao GnuRadio Windows"
 permalink: /guides/grc-win64-install/
+---
 
 # Instalação GNU Windows x64 
 Criado por: Paulo Dutra
@@ -13,7 +15,7 @@ Baixe e instale a versão do Radioconda para seu sistema operacional mais detalh
 ### Passo 2:
 
 Inicie o shell do conda:\
-Na barra de pesquisa do windows procure por Anaconda ou Radioconda o ícone deve ser algo semelhante a imagem abaixo:
+Na barra de pesquisa do windows procure por Anaconda ou Radioconda o ícone deve ser algo semelhante a imagem abaixo:\
 ![conda_win64](/assets/img/conda_icon.png)
 
 ### Passo 3:

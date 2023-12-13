@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Demodulando o satélite MicroRad (μRad)!"
-date:   2023-12-13 17:01:00 -0300
+date:   2023-12-13 17:35:00 -0300
 author: Paulo Dutra
 categories:
   - pt-BR
@@ -43,7 +43,13 @@ Mode ----> Modo de operação [INIT, NOMINAL, SAFE, PAYLOAD, SHUTDOWN] \
 Counter -> Contador de pacotes enviados
 
 
-Para demodular o beacon de telemetria sugerimos usar o programa [GnuRadio](https://www.gnuradio.org) e os blocos da biblioteca [Gr-Lora-SDR](https://github.com/tapparelj/gr-lora_sdr) vamos disponibilizar alguns tutoriais de instalação para os sitemas operacionais: [Windows 64bits]({% link /guides/grc-win64-install.md %}), [Linux 64bits]({% link guides/grc-linux-install.md%}) e [MacOs]({% link /guides/grc-mac-install.md %}), basta clicar no nome do sistema e seguir os passos para instalar e configurar o programa, um guia geral (em ingles) pode ser encontrado no link [GnuRadio CondaInstall](https://wiki.gnuradio.org/index.php/CondaInstall).
+Para demodular o beacon de telemetria sugerimos usar o programa [GnuRadio](https://www.gnuradio.org) e os blocos da biblioteca [Gr-Lora-SDR](https://github.com/tapparelj/gr-lora_sdr) vamos disponibilizar alguns tutoriais de instalação para os sitemas operacionais:
+
+Guia de Instalação [Windows 64bits](/guides/grc-win64-install) \
+Guia de Instalação [Linux 64bits](/guides/grc-linux-install) \
+Guia de Instalação [MacOs](/guides/grc-mac-install)
+
+Basta clicar no nome do sistema e seguir os passos para instalar e configurar o programa, um guia geral (em ingles) pode ser encontrado no link [GnuRadio CondaInstall](https://wiki.gnuradio.org/index.php/CondaInstall).
 
 Também é necessário um SDR, o popular RTL-SDR deve ser usado, pois esta é a configuração padrão do flowgraph.
 
@@ -70,5 +76,3 @@ Terminal do windows.
 Vista lado á lado do terminal e do espectrograma mostrando pacotes demodulados.
 
 Em caso de dúvidas ou problemas, por favor entre em contato pelas nossas redes sociais: [Instagram Noizorbita](https://www.instagram.com/noizorbita/?hl=en), links aqui no site, direto via meu telegram: [Paulo Dutra PU4THZ](https://web.telegram.org/k/#@Dutracgi) ou pelo [Telegram Joao Polito PU4JPP](https://web.telegram.org/k/#@jp_polito). Obrigado!
-
-[TESTE]({% link /test.markdown %})
