@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Demodulando o satélite MicroRad (μRad)!"
-date:   2023-12-13 16:40:00 -0300
+date:   2023-12-13 17:01:00 -0300
 author: Paulo Dutra
 categories:
   - pt-BR
@@ -16,7 +16,8 @@ A nossa equipe de competição de pequenos satélites, [NoizOrbita](https://www.
 Patch da missão MicroRad (μRad)!
 
 O satélite MicroRad (μRad, μ = Micro, Rad = Radiação) é um cubesat 1U, possuindo as dimensões de 10x10x10cm e foi projetado para transportar 2 missões:\
-Um experimento de Radiação que usa fotodiodos de silício para detectar e contar partículas ionizantes alfa, beta e gamma.\
+Um experimento de Radiação que usa fotodiodos de silício para detectar e contar partículas ionizantes alfa, beta e gamma.
+
 Um experimento de Microbiologia que investiga a presença de de micro-organismos na extratosfera com uma camara limpa que será aberta por radiocomando para capturar os micro-organismos e fechada antes do satélite retornar ao solo.\
 ![microrad_obsat](/assets/img/obsat_microrad.jpg)\
 Foto do satélite na Obsat com as medalhas recebidas!
@@ -42,7 +43,7 @@ Mode ----> Modo de operação [INIT, NOMINAL, SAFE, PAYLOAD, SHUTDOWN] \
 Counter -> Contador de pacotes enviados
 
 
-Para demodular o beacon de telemetria sugerimos usar o programa [GnuRadio](https://www.gnuradio.org) e os blocos da biblioteca [Gr-Lora-SDR](https://github.com/tapparelj/gr-lora_sdr) vamos disponibilizar alguns tutoriais de instalação para os sitemas operacionais: [Windows 64bits](/guides/grc-win64-install), [Linux 64bits](/guides/grc-linux-install) e [MacOs](/guides/grc-mac-install), basta clicar no nome do sistema e seguir os passos para instalar e configurar o programa, um guia geral (em ingles) pode ser encontrado no link [GnuRadio CondaInstall](https://wiki.gnuradio.org/index.php/CondaInstall).
+Para demodular o beacon de telemetria sugerimos usar o programa [GnuRadio](https://www.gnuradio.org) e os blocos da biblioteca [Gr-Lora-SDR](https://github.com/tapparelj/gr-lora_sdr) vamos disponibilizar alguns tutoriais de instalação para os sitemas operacionais: [Windows 64bits]({% link /guides/grc-win64-install.md %}), [Linux 64bits]({% link guides/grc-linux-install.md%}) e [MacOs]({% link /guides/grc-mac-install.md %}), basta clicar no nome do sistema e seguir os passos para instalar e configurar o programa, um guia geral (em ingles) pode ser encontrado no link [GnuRadio CondaInstall](https://wiki.gnuradio.org/index.php/CondaInstall).
 
 Também é necessário um SDR, o popular RTL-SDR deve ser usado, pois esta é a configuração padrão do flowgraph.
 
