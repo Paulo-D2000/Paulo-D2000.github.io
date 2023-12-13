@@ -26,8 +26,9 @@ Convidamos os Radioamadores a fazer parte da missão gravando o sinal (IQ) receb
 
 O μRad possui um beacon de telemetria usando a modulação LoRa e transmite os dados do satélite e da carga útil (experimento de Microbiologia)  a cada 30 segundos na faixa de 70cm radioamadora (UHF), mais especificamente em 434MHz, a estrutura do pacote no formato de texto é a seguinte:
 
-| Temp | Alt | Pres | Acc_x | Acc_y | Acc_z | Gyro_x | Gyro_y | Gyro_z | Bat % | Payload | Mode | Counter |
+| Call | Temp | Alt | Pres | Acc_x | Acc_y | Acc_z | Gyro_x | Gyro_y | Gyro_z | Bat % | Payload | Mode | Counter |
 
+Call ----> Indicativo de chamada (PU4THZ)
 Temp ----> Temperatura em C (Graus Celsius)\
 Alt -----> Altitude em metros acima do nível do mar\
 Pres ----> Pressão bruta no sensor\
