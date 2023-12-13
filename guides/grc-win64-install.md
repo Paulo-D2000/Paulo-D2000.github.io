@@ -2,6 +2,7 @@
 layout: page
 title: "Instalacao GnuRadio Windows"
 permalink: /guides/grc-win64-install/
+exclude: true
 ---
 
 # Instalação GNU Windows x64 

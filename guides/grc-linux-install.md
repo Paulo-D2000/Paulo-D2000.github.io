@@ -2,6 +2,7 @@
 layout: page
 title: "Instalacao GnuRadio Linux"
 permalink: /guides/grc-linux-install/
+exclude: true
 ---
 
 # Instalação GNU Linux x64 

@@ -2,6 +2,7 @@
 layout: page
 title: "Instalacao GnuRadio MacOS"
 permalink: /guides/grc-mac-install/
+exclude: true
 ---
 
 # Instalação GNU macOS 
