@@ -28,7 +28,7 @@ O μRad possui um beacon de telemetria usando a modulação LoRa e transmite os 
 
 | Call | Temp | Alt | Pres | Acc_x | Acc_y | Acc_z | Gyro_x | Gyro_y | Gyro_z | Bat % | Payload | Mode | Counter |
 
-Call ----> Indicativo de chamada (PU4THZ)
+Call ----> Indicativo de chamada (PU4THZ)\
 Temp ----> Temperatura em C (Graus Celsius)\
 Alt -----> Altitude em metros acima do nível do mar\
 Pres ----> Pressão bruta no sensor\
