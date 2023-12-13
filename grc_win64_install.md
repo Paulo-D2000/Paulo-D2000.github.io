@@ -1,6 +1,6 @@
 layout: page
 title: "Instalacao GnuRadio Windows"
-permalink: /guides/grc/win64_install/
+permalink: /guides/grc-win64-install/
 
 # Instalação GNU Windows x64 
 Criado por: Paulo Dutra

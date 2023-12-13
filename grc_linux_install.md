@@ -1,6 +1,6 @@
 layout: page
 title: "Instalacao GnuRadio Linux"
-permalink: /guides/grc/linux_install/
+permalink: /guides/grc-linux-install/
 
 # Instalação GNU Linux x64 
 Criado por: Paulo Dutra

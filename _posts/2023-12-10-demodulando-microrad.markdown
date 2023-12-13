@@ -42,7 +42,7 @@ Mode ----> Modo de operação [INIT, NOMINAL, SAFE, PAYLOAD, SHUTDOWN] \
 Counter -> Contador de pacotes enviados
 
 
-Para demodular o beacon de telemetria sugerimos usar o programa [GnuRadio](https://www.gnuradio.org) e os blocos da biblioteca [Gr-Lora-SDR](https://www.gnuradio.org) vamos disponibilizar alguns tutoriais de instalação para os sitemas operacionais: [Windows 64bits](/guides/grc/win64_install), [Linux 64bits](/guides/grc/linux_install) e [MacOs](/guides/grc/mac_install), basta clicar no nome do sistema e seguir os passos para instalar e configurar o programa, um guia geral (em ingles) pode ser encontrado no link [GnuRadio CondaInstall](https://wiki.gnuradio.org/index.php/CondaInstall).
+Para demodular o beacon de telemetria sugerimos usar o programa [GnuRadio](https://www.gnuradio.org) e os blocos da biblioteca [Gr-Lora-SDR](https://github.com/tapparelj/gr-lora_sdr) vamos disponibilizar alguns tutoriais de instalação para os sitemas operacionais: [Windows 64bits](/guides/grc-win64-install), [Linux 64bits](/guides/grc-linux-install) e [MacOs](/guides/grc-mac-install), basta clicar no nome do sistema e seguir os passos para instalar e configurar o programa, um guia geral (em ingles) pode ser encontrado no link [GnuRadio CondaInstall](https://wiki.gnuradio.org/index.php/CondaInstall).
 
 Também é necessário um SDR, o popular RTL-SDR deve ser usado, pois esta é a configuração padrão do flowgraph.
 
