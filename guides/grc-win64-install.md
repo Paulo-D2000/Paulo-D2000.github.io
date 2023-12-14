@@ -15,7 +15,7 @@ Criado por: Paulo Dutra
 Baixe e instale a versão do Radioconda para seu sistema operacional mais detalhes no [Github do Miniconda](https://docs.conda.io/projects/miniconda/en/latest/index.html):\
 Link de Download (Versão mais recente): [Radioconda-windows-x86_64.exe](https://glare-sable.vercel.app/ryanvolz/radioconda/radioconda-.*-Windows-x86_64.exe)
 
-Versões antigas: [Releases Radioconda](https://github.com/ryanvolz/radioconda/releases)\
+Link de Download (Versões antigas): [Releases Radioconda](https://github.com/ryanvolz/radioconda/releases)\
 Baixe o arquivo que termina em ``Windows-x86_64.exe``, caso não apareçam os arquivos clique em ```Assets``` 
 
 #### (Instalação Manual, Caso a automática não funcione):
