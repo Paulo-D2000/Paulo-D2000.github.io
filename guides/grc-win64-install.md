@@ -8,10 +8,18 @@ exclude: true
 # Instalação GNU Windows x64 
 Criado por: Paulo Dutra
 
-### Passo 1:
+### Passo 1 
+
+#### (Instalação Automática, Recomendada):
 
 Baixe e instale a versão do Radioconda para seu sistema operacional mais detalhes no [Github do Miniconda](https://docs.conda.io/projects/miniconda/en/latest/index.html):\
 Link de Download [Radioconda-windows-x86_64.exe](https://glare-sable.vercel.app/ryanvolz/radioconda/radioconda-.*-Windows-x86_64.exe)
+
+#### (Instalação Manual, Caso a automática não funcione):
+
+Baixe e instale a versão do Anaconda ou Miniconda (mais compacto) para seu sistema operacional mais detalhes no [Github do Miniconda](https://docs.conda.io/projects/miniconda/en/latest/index.html):\
+Link de Download: [Anaconda](https://www.anaconda.com/download) \
+Link de Download: [MiniConda](https://docs.conda.io/projects/miniconda/en/latest/index.html)
 
 ### Passo 2:
 
@@ -20,6 +28,21 @@ Na barra de pesquisa do windows procure por Anaconda ou Radioconda o ícone deve
 ![conda_win64](/assets/img/conda_icon.png)
 
 ### Passo 3:
+
+#### Em caso de Instação Manual
+Rodar estes comandos primeiro:
+```
+conda create -n radioconda
+conda activate radioconda
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
+conda install gnuradio
+```
+
+Ative o ambiente radioconda
+```
+conda activate radioconda
+```
 
 Instalar alguns pacotes no gnuradio (provavelmente já estão instalados...)
 ```
@@ -48,6 +71,6 @@ Procure o ícone do GnuRadio na Área de Trabalho e clique 2 vezes.\
 Via linha de comando:\
 Execute o Radioconda / Anaconda e digite:
 ```
-conda activate gnuradio
+conda activate radioconda
 gnuradio-companion
 ```
