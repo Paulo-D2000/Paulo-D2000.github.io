@@ -111,42 +111,12 @@ blocks:
     affinity: ''
     alias: ''
     comment: ''
-    en_uvec: 'True'
+    en_uvec: 'False'
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [416, 576.0]
-    rotation: 180
-    state: true
-- name: epy_block_0
-  id: epy_block
-  parameters:
-    _source_code: "\"\"\"\nEmbedded Python Block demo\n\"\"\"\n\n#  epy_block_0.py\n\
-      #  created 10/17/2019\n\nimport numpy as np\nfrom gnuradio import gr\nimport\
-      \ pmt\n\nclass my_sync_block(gr.sync_block):\n    \"\"\"\n    reads input from\
-      \ a message port\n    outputs text as pdu\n    \"\"\"\n    def __init__(self):\n\
-      \        gr.sync_block.__init__(self,\n            name = \"Message To PDU\"\
-      ,\n            in_sig = None,\n            out_sig = None)\n        self.message_port_register_in(pmt.intern('msg_in'))\n\
-      \        self.message_port_register_out(pmt.intern('pdu_out'))\n        self.set_msg_handler(pmt.intern('msg_in'),\
-      \ self.handle_msg)\n\n    def handle_msg(self, msg):\n        textboxValue =\
-      \ \"\"\n        try:\n            textboxValue = pmt.symbol_to_string(msg)\n\
-      \            u8_data = [i for i in bytearray(textboxValue.encode('ascii','ignore'))]\n\
-      \            self.message_port_pub(pmt.intern('pdu_out'), pmt.cons(pmt.PMT_NIL,pmt.init_u8vector(len(u8_data),\
-      \ u8_data)))\n        except:\n            pass\n        "
-    affinity: ''
-    alias: ''
-    comment: ''
-    maxoutbuf: '0'
-    minoutbuf: '0'
-  states:
-    _io_cache: ('Message To PDU', 'my_sync_block', [], [('msg_in', 'message', 1)],
-      [('pdu_out', 'message', 1)], '\n    reads input from a message port\n    outputs
-      text as pdu\n    ', [])
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [560, 576.0]
+    coordinate: [576, 552.0]
     rotation: 180
     state: true
 - name: lora_sdr_crc_verif_0
@@ -363,8 +333,7 @@ blocks:
     state: enabled
 
 connections:
-- [epy_block_0, pdu_out, blocks_message_debug_0, print]
-- [lora_sdr_crc_verif_0, msg, epy_block_0, msg_in]
+- [lora_sdr_crc_verif_0, msg, blocks_message_debug_0, print]
 - [lora_sdr_deinterleaver_0, '0', lora_sdr_hamming_dec_0, '0']
 - [lora_sdr_dewhitening_0, '0', lora_sdr_crc_verif_0, '0']
 - [lora_sdr_fft_demod_0, '0', lora_sdr_gray_mapping_0, '0']
