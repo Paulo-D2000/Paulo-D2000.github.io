@@ -16,7 +16,7 @@ tags:
   - sdr
 ---
 
-<h1>O começo...</h1>a
+<h1>O começo...</h1>
 
 Esta é a primeira parte da minha aventura tentando implementar um modem GMSK em C++, observe que ele ainda está em desenvolvimento e provavelmente muitas coisas mudarão entre as postagens conforme eu refatoro parte do código e encontro mais bugs (há muitos, LOL).
 
